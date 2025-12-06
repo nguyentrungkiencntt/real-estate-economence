@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { icons } from "@/utils/icons";
 import Image from "next/image";
 import Link from "next/link";
-const { TiArrowRight, FaImage, IoLocationOutline, IoMdHeartEmpty,FiArrowDown } = icons;
+const { TiArrowRight, FaImage, IoLocationOutline, IoMdHeartEmpty, FiArrowDown } = icons;
 
 export default function RealEstatePopular() {
   return <div className="bg-[#FAFAFA] py-10">
@@ -19,7 +19,7 @@ export default function RealEstatePopular() {
         </div>
       </div>
       <div className="grid grid-cols-4 gap-3">
-        <div className="flex flex-col bg-white shadow-2xl rounded-md">
+        <div className="flex flex-col bg-white shadow-xl rounded-md">
           <div className="min-h-[162px] max-h-[162px] overflow-hidden relative">
             <Image src={"https://file4.batdongsan.com.vn/crop/393x222/2025/08/21/20250821234831-d4de_wm.jpg"} className="object-cover object-center h-full w-full rounded-tl-md rounded-tr-md" height={162} width={300} alt="logo" />
             <div className="absolute text-white bottom-2.5 right-2.5 flex items-center gap-2">
@@ -51,7 +51,7 @@ export default function RealEstatePopular() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white shadow-2xl rounded-md">
+        <div className="flex flex-col bg-white shadow-xl rounded-md">
           <div className="min-h-[162px] max-h-[162px] overflow-hidden relative">
             <Image src={"https://file4.batdongsan.com.vn/crop/393x222/2025/08/21/20250821234831-d4de_wm.jpg"} className="object-cover object-center h-full w-full rounded-tl-md rounded-tr-md" height={162} width={300} alt="logo" />
             <div className="absolute text-white bottom-2.5 right-2.5 flex items-center gap-2">
@@ -83,7 +83,7 @@ export default function RealEstatePopular() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white shadow-2xl rounded-md">
+        <div className="flex flex-col bg-white shadow-xl rounded-md">
           <div className="min-h-[162px] max-h-[162px] overflow-hidden relative">
             <Image src={"https://file4.batdongsan.com.vn/crop/393x222/2025/08/21/20250821234831-d4de_wm.jpg"} className="object-cover object-center h-full w-full rounded-tl-md rounded-tr-md" height={162} width={300} alt="logo" />
             <div className="absolute text-white bottom-2.5 right-2.5 flex items-center gap-2">
@@ -115,7 +115,7 @@ export default function RealEstatePopular() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white shadow-2xl rounded-md">
+        <div className="flex flex-col bg-white shadow-xl rounded-md">
           <div className="min-h-[162px] max-h-[162px] overflow-hidden relative">
             <Image src={"https://file4.batdongsan.com.vn/crop/393x222/2025/08/21/20250821234831-d4de_wm.jpg"} className="object-cover object-center h-full w-full rounded-tl-md rounded-tr-md" height={162} width={300} alt="logo" />
             <div className="absolute text-white bottom-2.5 right-2.5 flex items-center gap-2">
@@ -147,7 +147,7 @@ export default function RealEstatePopular() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col bg-white shadow-2xl rounded-md">
+        <div className="flex flex-col bg-white shadow-xl rounded-md">
           <div className="min-h-[162px] max-h-[162px] overflow-hidden relative">
             <Image src={"https://file4.batdongsan.com.vn/crop/393x222/2025/08/21/20250821234831-d4de_wm.jpg"} className="object-cover object-center h-full w-full rounded-tl-md rounded-tr-md" height={162} width={300} alt="logo" />
             <div className="absolute text-white bottom-2.5 right-2.5 flex items-center gap-2">
@@ -181,10 +181,10 @@ export default function RealEstatePopular() {
         </div>
       </div>
       <div className="flex items-center justify-center">
-          <Button className="bg-blue-500 hover:bg-blue-400 cursor-pointer flex gap-2 items-center">
-            <FiArrowDown size={18}/>
-            Mở rộng
-          </Button>
+        <Button className="bg-blue-500 hover:bg-blue-400 cursor-pointer flex gap-2 items-center">
+          <FiArrowDown size={18} />
+          Mở rộng
+        </Button>
       </div>
     </div>
   </div>

@@ -41,7 +41,15 @@ import { WiTime3 } from "react-icons/wi";
 import { TiArrowRight } from "react-icons/ti";
 import { FaImage } from "react-icons/fa6";
 import { FiArrowDown } from "react-icons/fi";
+import { MdOutlineSlowMotionVideo } from "react-icons/md";
+import { FaMapMarkedAlt } from "react-icons/fa";
+import { RiArrowDropDownLine } from "react-icons/ri";
+import { LuBellDot } from "react-icons/lu";
 export const icons = {
+    LuBellDot,
+    RiArrowDropDownLine,
+    FaMapMarkedAlt,
+    MdOutlineSlowMotionVideo,
     FiArrowDown,
     FaImage,
     TiArrowRight,

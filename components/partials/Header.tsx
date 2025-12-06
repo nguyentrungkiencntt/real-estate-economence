@@ -11,7 +11,7 @@ const data = [
     {
         id: 0,
         name: 'Nhà đất bán',
-        link: '/'
+        link: '/landsales'
     },
     {
         id: 1,
@@ -115,7 +115,7 @@ export default function Header() {
                         </div>
                         <MdOutlineArrowDropDown size={18} />
                     </div>
-                    {isUser && <ul className="absolute top-[50px] right-0 bg-white rounded-md shadow-2xl min-w-[250px] max-w-[250px] flex flex-col">
+                    {isUser && <ul className="absolute top-[50px] z-50 right-0 bg-white rounded-md shadow-2xl min-w-[250px] max-w-[250px] flex flex-col">
 
                         <li onClick={() => router.push("/seller")} className="flex items-center gap-2 px-6 py-2 hover:bg-gray-200">
                             <ImStatsDots size={16} />

@@ -95,7 +95,7 @@ export default function Home() {
       <RealEstateEnterprise />
       <RealEstateLocation />
       <NewsRealEstate />
-      <RealEstateFooter />
+      {/* <RealEstateFooter /> */}
       <Footer />
     </div>
   );
