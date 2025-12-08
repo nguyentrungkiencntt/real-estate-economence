@@ -4,7 +4,7 @@ import Header from "@/components/partials/Header";
 import NewsRealEstate from "@/components/partials/NewsRealEstate";
 import RealEstateAdvertisement from "@/components/partials/RealEstateAdvertisement";
 import RealEstateEnterprise from "@/components/partials/RealEstateEnterprise";
-import RealEstateFooter from "@/components/partials/RealEstateFooter";
+// import RealEstateFooter from "@/components/partials/RealEstateFooter";
 import RealEstateLocation from "@/components/partials/RealEstateLocation";
 import RealEstatePopular from "@/components/partials/RealEstatePopular";
 import { useState } from "react";

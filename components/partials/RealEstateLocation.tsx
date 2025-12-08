@@ -6,9 +6,9 @@ export default function RealEstateLocation() {
             Bất động sản theo địa điểm
         </div>
         <div className="flex gap-2 min-h-[410px] max-h-[410px] justify-between w-full">
-            <div className="flex-1 min-h-full rounded-md bg-gray-600">
+            <div className="flex-1 bg-[url(/images/hcm.jpg)] bg-cover bg-center min-h-full rounded-md bg-gray-600">
                 <div className="flex gap-1 flex-col text-white pt-5 pl-5">
-                    <div className="font-semibold text-[22px] hover:text-gray-400 cursor-pointer">
+                    <div className="font-semibold text-[22px]  hover:text-gray-400 cursor-pointer">
                         TP. Hồ Chí Minh
                     </div>
                     <div>88.211 tin đăng</div>
@@ -16,7 +16,7 @@ export default function RealEstateLocation() {
             </div>
             <div className="flex-0.5 grid grid-cols-2 gap-2">
                 <div className="flex-0.5 grid grid-cols-1 gap-2">
-                    <div className="min-w-[262px] max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
+                    <div className="min-w-[262px] bg-[url(/images/hanoi.jpg)] bg-cover bg-center max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
                         <div className="flex gap-1 flex-col text-white pt-5 pl-5">
                             <div className="font-semibold text-[22px] hover:text-gray-400 cursor-pointer">
                                 Hà Nội
@@ -24,7 +24,7 @@ export default function RealEstateLocation() {
                             <div>66.132 tin đăng</div>
                         </div>
                     </div>
-                    <div className="min-w-[262px] max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
+                    <div className="min-w-[262px] bg-[url(/images/binhduong.png)] bg-cover bg-center max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
                         <div className="flex gap-1 flex-col text-white pt-5 pl-5">
                             <div className="font-semibold text-[22px] hover:text-gray-400 cursor-pointer">
                                 Bình Dương
@@ -34,7 +34,7 @@ export default function RealEstateLocation() {
                     </div>
                 </div>
                 <div className="flex-0.5 grid grid-cols-1 gap-2">
-                    <div className="min-w-[262px] max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
+                    <div className="min-w-[262px] bg-[url(/images/danang.jpg)] bg-cover bg-center max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
                         <div className="flex gap-1 flex-col text-white pt-5 pl-5">
                             <div className="font-semibold text-[22px] hover:text-gray-400 cursor-pointer">
                                 Đà Nẵng
@@ -42,7 +42,7 @@ export default function RealEstateLocation() {
                             <div>10.588 tin đăng</div>
                         </div>
                     </div>
-                    <div className="min-w-[262px] max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
+                    <div className="min-w-[262px] bg-[url(/images/dongnai.jpg)] bg-cover bg-center max-w-[262px]  rounded-md shadow-2xs bg-gray-700">
                         <div className="flex gap-1 flex-col text-white pt-5 pl-5">
                             <div className="font-semibold text-[22px] hover:text-gray-400 cursor-pointer">
                                 Đồng Nai

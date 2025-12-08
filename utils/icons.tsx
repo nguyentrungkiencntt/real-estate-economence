@@ -45,7 +45,9 @@ import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { LuBellDot } from "react-icons/lu";
+import { SiZalo } from "react-icons/si";
 export const icons = {
+    SiZalo,
     LuBellDot,
     RiArrowDropDownLine,
     FaMapMarkedAlt,

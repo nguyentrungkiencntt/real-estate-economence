@@ -178,9 +178,6 @@ export default function RealEstateEnterprise() {
                         </div>
                     </div>
                 </SwiperSlide>
-
-
-
             </Swiper>
         </div>
     </div>

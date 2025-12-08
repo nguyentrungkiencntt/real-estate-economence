@@ -16,28 +16,28 @@ const data = [
     {
         id: 1,
         name: 'Nhà đất cho thuê',
-        link: '/'
+        link: '/landsales/rent'
     },
-    {
-        id: 2,
-        name: 'Dự án',
-        link: '/'
-    },
-    {
-        id: 3,
-        name: 'Tin tức',
-        link: '/'
-    },
-    {
-        id: 4,
-        name: 'Phân tích đánh giá',
-        link: '/'
-    },
-    {
-        id: 5,
-        name: 'Danh bạ',
-        link: '/'
-    },
+    // {
+    //     id: 2,
+    //     name: 'Dự án',
+    //     link: '/'
+    // },
+    // {
+    //     id: 3,
+    //     name: 'Tin tức',
+    //     link: '/'
+    // },
+    // {
+    //     id: 4,
+    //     name: 'Phân tích đánh giá',
+    //     link: '/'
+    // },
+    // {
+    //     id: 5,
+    //     name: 'Danh bạ',
+    //     link: '/'
+    // },
 
 ]
 

@@ -1,13 +1,13 @@
 'use client';
-import LandEstate from "@/components/ItemComponents/LandEstate";
-import SearchEstate from "@/components/ItemComponents/SearchEstate";
 import AlterEstate from "@/components/ItemComponents/AlterEstate";
 import AlterEstateTopic from "@/components/ItemComponents/AlterEstateTopic";
+import LandEstate from "@/components/ItemComponents/LandEstate";
+import SearchEstate from "@/components/ItemComponents/SearchEstate";
 
 export default function Page() {
     return <div className="my-5 w-[60%] m-auto">
-        <SearchEstate type="landsales" />
-        <AlterEstate type="landsales" />
+        <SearchEstate type="rent" />
+        <AlterEstate type="rent" />
         <div className="flex gap-2">
             <div className="w-[75%] text-[12px] flex flex-col gap-3 my-3">
                 <div className="flex gap-2 items-center">
@@ -19,9 +19,9 @@ export default function Page() {
                         Tất cả BĐS trên toàn quốc
                     </div>
                 </div>
-                <LandEstate countNews={122334} title="Mua bán nhà đất trên toàn quốc" type="landsales" />
+                <LandEstate countNews={216433} title="Cho thuê nhà đất trên toàn quốc" type="rent" />
             </div>
-            <AlterEstateTopic type="landsales" />
+            <AlterEstateTopic type="rent" />
         </div>
     </div>
 }
